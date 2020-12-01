@@ -90,9 +90,11 @@
 //     console.log(decrs);
 
 const isChecked = true;
-const isClose = false;
+const isClose = true;
 
 console.log(isChecked && isClose);
+
+console.log(isChecked || isClose);
 
 
 
