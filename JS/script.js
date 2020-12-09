@@ -89,14 +89,167 @@
 //     console.log(incrs);
 //     console.log(decrs);
 
-const isChecked = true;
-const isClose = true;
+// const isChecked = true;
+// const isClose = true;
 
-console.log(isChecked && isClose);
+// console.log(isChecked && isClose);
 
-console.log(isChecked || isClose);
-
-
+// console.log(isChecked || isClose);
 
 
+// if (4 == 9 ) {
+//     console.log('Ok')
+// } else {
+//     console.log('Don`t Ok')
+// };
+
+// let number = 50;
+
+// if (number <= 27) {
+//     console.log('NaN')
+// } else if (number > 50) {
+//     console.log('Number too much')
+// }else {
+//     console.log('Your number is perfect')
+// };
+
+// (number == 50) ? console.log('OK') : console.log('Error');
+
+// let number = prompt('Choose beetween 48-51')
+
+
+// switch (num) {
+//     case 49:
+//         console.log('not core');
+//         break;
+//     case 51:
+//         console.log('not core');
+//         break;
+//     case 50:
+//         console.log('core');
+//         break;
+//     case 48:
+//         console.log('not');
+//         break;
+//     default:
+//         console.log('NaN');
+//         break;
+//  }
+
+// while (num <= 50){
+//     console.log(num);
+//     num++;
+// }
+
+// do{
+//     console.log(num);
+//     num++; 
+// }
+// while (num <= 40)
+// for(let i = 1; i < 10; i++){
+//     console.log(num);
+//     num++; 
+// }
+// for ( let i = 10; i >= 1; i--){
+//     if( i === 3){
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+// let a = confirm('Do you want ansver ');
+// console.log(a);
+// let num = 30;
+
+// function showMessage(text){
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
+// } 
+// showMessage('Hello world');
+// console.log(num); 
+
+// function calc(a, b){
+//     return (a + b);
+// }
+
+// console.log(calc(4, 5)); 
+// console.log(calc(48, 5)); 
+// console.log(calc(10, 5)); 
+ 
+// function ret(){
+//     let num = 50;
+//     return num;
+// }
+
+// let anotherNum = ret();
+// console.log(anotherNum);
+
+// let logger = function(){
+//     console.log('Logger')
+// };
+
+// logger();
+
+
+// const calc = (a, b) => a + b ; 
+
+// console.log(calc(3,4));
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+  
+//   ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert("Вы отменили выполнение."); }
+//   );
+
+//   const ask =(question, yes, no) => {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+//   ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert("Вы отменили выполнение."); }
+//   );
+
+//   function ask(question, yes, no) {
+//         if (confirm(question)) yes()
+//         else no();
+//       }
+
+//     ask(
+//         "Вы согласны?",
+//         () => { alert("Вы согласились."); },
+//          () => { alert("Вы отменили выполнение."); }
+//       );  
+
+// let str = 'Time';
+// // let arr = [1, 3, 4,]
+
+// // console.log(str[2]);  
+// // console.log(arr.length); 
+// console.log(str.toLowerCase()); 
+
+// const fruit = 'some fruits';
+// console.log(fruit.indexOf('t'));
+
+// const logg = 'Hello world'; 
+
+// console.log(logg.substr(6, 5));
+
+// let number = 3.3;
+
+// console.log(Math.round(number));
+
+const test = "12.2px";
+console.log(parseInt(test));
+console.log(parseFloat(test));
 
